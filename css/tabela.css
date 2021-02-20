@@ -1,0 +1,81 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th, {
+    text-align: left;
+}
+
+/*tamanho logo*/
+.logo
+{
+	width: 70px;
+	padding: 2px 0px;
+}
+/*Imagem de fundo*/
+body{
+	background-image:url("../imagens/fundo2.jpg");
+	background-repeat: no-repeat;
+	background-position: right top; 
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*cor do menu*/
+.navbar
+{
+	background: #144fd4;
+}
+
+}
+/*cor e tamanho do texto*/
+
+}
+/*cinfig da fonte*/
+.fonte{
+	font-weight: bold;
+	font-size: 0.9em;
+	color: white;
+}
+/*tela de fundo*/
+.fundo{
+	background: #6c757dd9 center;
+	text-align: center;
+	padding: 10px 10px;
+}
+/*menu no canto direito*/
+.navbar-nav{
+	margin-left: auto;
+}
+table{
+	width:100%
+}
+.cor{
+	color:orange;
+	text-shadow: 4px 4px 10px black;
+}
+.contato > ul > li{
+	list-style:none;
+	color:#ffffff;
+	text-shadow: 2px 2px 0px #000000;
+	display: inline-block;
+}
+.contato > h3{
+	color:#ffffff;
+	text-align: center;
+	text-shadow: 2px 2px 0px #000000;
+}
+footer{
+	background: #144fd4;
+}
+.ajuste {
+	margin: 0 !important;
+}
+.co{
+	color: white;
+	font-family: verdana;
+}
+

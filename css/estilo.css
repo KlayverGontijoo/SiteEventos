@@ -1,0 +1,76 @@
+body{
+	background-image: url("../imagens/fundo2.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+
+.navbar{
+	background: #144fd4;
+
+}
+#carouselExampleFade{
+	margin-top: 75px;
+}
+.texto{
+	color: white;
+	text-shadow: 4px 4px 10px #00c5ff;
+}
+
+@media only screen and (max-width: 997px) {
+	.texto { font-size: 2rem; }
+}
+
+.atracoes{
+	color:#0bbaff;
+	text-shadow: 4px 4px 10px white;
+}
+.fonte{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.fundo{
+	background: #6c757dd9 center;
+	text-align: center;
+}
+
+.navbar-nav{
+	margin-left: auto;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	background: #00c5ff;
+	border-radius: 4px
+}
+.contato > ul > li{
+	list-style:none;
+	color:#ffffff;
+	text-shadow: 2px 2px 0px #000000;
+	display: inline-block;
+}
+.contato > h3{
+	color:#ffffff;
+	text-align: center;
+	text-shadow: 2px 2px 0px #000000;
+}
+footer{
+	background: #0087ff;
+
+}
+
+.ajuste {
+	margin: 0 !important;
+}
+
+.cocozito{
+	width: 70px;
+	padding: 2px 0px;
+}
+.coe{
+	color: white;
+	font-family: arial;
+}

@@ -1,0 +1,64 @@
+/*Imagem de fundo*/
+body{
+	background-image:url("../imagens/fundo.jpg");
+	background-repeat: no-repeat;
+	background-position: right top; 
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*cor do menu*/
+.navbar
+{
+	background: #144fd4;
+}
+
+/*tamanho logo*/
+.logo
+{
+	width: 70px;
+	padding: 2px 0px;
+}
+/*cor e tamanho do texto*/
+.texto{
+	color:red;
+	text-shadow: 4px 4px 10px white;
+
+}
+/*cinfig da fonte*/
+.fonte{
+	font-weight: bold;
+	font-size: 0.9em;
+	color: white;
+}
+/*tela de fundo*/
+.fundo{
+	background: #6c757dd9 center;
+	text-align: center;
+}
+/*menu no canto direito*/
+.navbar-nav{
+	margin-left: auto;
+}
+
+footer{
+	background: #0087ff;
+}
+.ajuste {
+	margin: 0 !important;
+}
+.contato > ul > li{
+	list-style:none;
+	color:#ffffff;
+	text-shadow: 2px 2px 0px #000000;
+	display: inline-block;
+}
+.contato > h3{
+	color:#ffffff;
+	text-align: center;
+	text-shadow: 2px 2px 0px #000000;
+}
+.coe{
+	color: white;
+	font-family: arial;
+}

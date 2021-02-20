@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title>Contato</title>
+
+
+		<title>Eventos</title> <!--Titulo aba do site-->
+	<meta charset="utf-8"> <!--Acentos e pontuação em portugues-->
+
+	<!--css-->
+	<meta name = "viewport" content="width = device-width, initial-scale=1.0"> <!--se adapta a tela do usuario-->
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!--Elementos de 12 colunas-->
+
+	<link rel="stylesheet" type="text/css" href="css/cont.css"> <!--css do usuario-->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="imagens/logo.ico">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+
+
+	<!--final-->
+
+	<!--Scripts-->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> <!--importa o jquery para usar o bootstrap-->
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> <!--importa o bootstrap para usar o jquery-->
+	
+	<script type="text/javascript" src="js/contato.js"></script>
+	<"--final--">
+</head>
+
+<body>
+
+	<!--Desenvolvimento do menu-->
+	<nav class = "navbar fixed-top navbar-dark navbar-expand-lg"> <!--Deixa o menu fixo no topo-->
+
+	<div class="container"> <!--Responsavel por 12 colunas--> 
+		<a href="index.html"><img class="logo" src="imagens/loogo.png"></a> <!--Botao para retornar a paigina principal-->
+		<h1>Eventos</h1>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-contrls="menu" aria-label="Toggle navigation" aria-expanded=false>
+		<!--Pegar icon-->	
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!--oculta o menu para celular-->
+	<div class="collapse navbar-collapse" id = "menu">
+		
+		<ul class="navbar-nav">
+		<li class = "nav-item"><a class = "nav-link" href = "index.html">Inicio</a></li>
+		<li class = "nav-item"><a class = "nav-link" href = "indexxx.html">Proximo Evento</a></li>
+		<li class = "nav-item"><a class = "nav-link" href = "indexx.html">Contato</a></li>
+		<li class = "nav-item"><a class = "nav-link" href = "indexxxx.html">Eventos Marcados</a></li>
+		
+		</ul>
+	</div>	
+
+	</div>
+
+	</nav><!--Final do menu-->
+			<br><br><br><br>
+<div class="centroContato">
+	
+	<form id="form" action="index.html" method="post" onsubmit="return contato()">
+		<div>
+		
+			<label><h5>Contato</h5></label>
+
+		</div>	
+
+		<div>
+			<label>Nome:</label>
+			<input class="field" id="nome" type="text" name="nome" placeholder="Digite seu nome">
+		</div>
+
+		<div>
+			<label>Telefone:</label>
+			<input class="field" id="telefone" type="number" name="telefone" placeholder="Diegite seu telefone">
+
+		</div>
+
+		<div>
+			<label>E-mail:</label>
+			<input class="field" id="email" type="E-mail" name="email" placeholder="Digite seu E-mail">
+		</div>
+
+		<div>
+			<label>Assunto:</label>
+			<input class="field" id="assunto" type="name" name="assunto" placeholder="Assunto">
+		</div>
+
+		<div>
+			<label>Mensagem:</label>
+			<textarea id="mensagem" cols="50" rows="5" placeholder="Mensagem"></textarea>
+		</div>
+
+		<div>
+		
+		<input type="reset" class="button" value="Apagar">
+				<input type="submit" class="button" id="enviado" value="Enviar"> 
+
+		</div>
+<br><br>
+<footer>
+		<div>
+
+			<div class="row ajuste">
+				
+			<div class="col-md-6 contato">
+				<ul>
+					
+					<img class="logo" src="imagens/loogo.png">
+
+					<span class="coe">
+	    TODOS OS DIREITOS RESERVADOS - 2018
+            </span>
+            		<br>
+					<li>klayvergontijo@KGEventos.com</li>
+				</ul>
+				</div>
+				</div>
+			</div>	
+		</footer>
+
+	</form>
+
+  </div> 
+</body>
+</html>
